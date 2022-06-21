@@ -6,11 +6,11 @@ const Home = () => {
     <>
         <div className="container">
             <div className="row">
-                <div className="col-md-12 text-right my-5">
-                  <Link className='btn btn-outline-dark'>Add Contact</Link>
+                <div className="col-md-12 text-end my-5">
+                  <Link to='/add' className='btn btn-outline-dark'>Add Contact</Link>
                 </div>
                 <div className="col-md-6 mx-auto">
-                <h1>Contact App</h1>
+                <h1>Welcome to React Redux Contact App</h1>
                 </div>
             </div>
         </div>
