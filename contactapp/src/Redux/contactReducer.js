@@ -20,7 +20,7 @@ export const contactReducer = (state = initialState, action) => {
       return state;
 
     case "UPDATE_CONTACT":
-        const updateState = state.map(el => el.id !== action.payload.id ? action.payload : el)
+        const updateState = state.map(el => el.id === action.payload.id ? action.payload : el)
       
       state = updateState
       return state;
